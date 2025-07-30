@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 class Student {
     // Data Member
-    int studentId;
-    String strudentName;
+    private int studentId;
+    private String strudentName;
     int studentAge;
     Scanner scanner = new Scanner(System.in);
 
@@ -20,9 +20,9 @@ class Student {
 
     }
     public void displayDetails() {
-    System.out.println("Student Id"+ studentId);
-        System.out.println("Student Name"+ strudentName);
-        System.out.println("Student Age"+ studentAge);
+    System.out.println("Student Id "+ studentId);
+        System.out.println("Student Name "+ strudentName);
+        System.out.println("Student Age "+ studentAge);
 
     }
 }
